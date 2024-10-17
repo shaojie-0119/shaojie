@@ -1,61 +1,23 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>庆祝国庆节</title>
-    <link rel="stylesheet" href="styles.css">
+  <title>登录界面</title>
+  <link rel="stylesheet" href="/index.css" />
 </head>
 <body>
-    <header>
-        <h1>庆祝中华人民共和国成立</h1>
-        <h2>75周年</h2>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#about">关于我们</a></li>
-            <li><a href="#events">活动详情</a></li>
-            <li><a href="#gallery">图库</a></li>
-            <li><a href="#contact">联系我们</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section id="about">
-            <h2>关于我们</h2>
-            <p>在这个特殊的日子里，我们共同庆祝祖国的繁荣昌盛。</p>
-        </section>
-
-        <section id="events">
-            <h2>活动详情</h2>
-            <p>我们将举办一系列活动，以表达对祖国的美好祝愿。</p>
-            <ul>
-                <li>文艺演出</li>
-                <li>知识竞赛</li>
-                <li>摄影比赛</li>
-            </ul>
-        </section>
-
-        <section id="gallery">
-            <h2>图库</h2>
-            <div class="gallery">
-                <img src="https://example.com/nationalday/flag.jpg" alt="国旗">
-                <img src="https://example.com/nationalday/cityscape.jpg" alt="城市夜景">
-                <img src="https://example.com/nationalday/fireworks.jpg" alt="烟花">
-            </div>
-        </section>
-
-        <section id="contact">
-            <h2>联系我们</h2>
-            <p>有任何问题，请通过以下方式联系我们。</p>
-            <p>Email: example@example.com</p>
-            <p>电话: +86 123456789</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>版权所有 © 2024 庆祝国庆节组织委员会</p>
-    </footer>
+    <div id="title">
+        登录界面
+    </div>
+  <div class="container">
+    <h2>登录</h2>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="用户名" required>
+      <input type="password" id="password" placeholder="密码" required>
+      <div id="errorMessage" class="error-message"></div>
+      <input type="submit" value="登录">
+    </form>
+  </div>
+  <script type="text/javascript" src="/index.js" ></script>
 </body>
 </html>

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+     background: url(../img/登录背景.jpg);
+     background-size: cover;
+  }
+  .container {
+    margin: 100px auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+   #title {
+          font-family: "隶书", cursive;
+          text-align: center;
+          font-size: 50px;
+          color: black;
+          margin-top: 65px;
+      }
